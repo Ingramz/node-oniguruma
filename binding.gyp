@@ -4,7 +4,7 @@
       'target_name': 'oniguruma',
       'type': 'static_library',
       'conditions': [
-        ['OS=="win"', {
+        ['OS=="win"', { 
           'msvs_disabled_warnings': [
             4244,  # conversion from '__int64' to 'int', possible loss of data
             4311,  # pointer truncation from 'OnigUChar *' to 'unsigned int'
