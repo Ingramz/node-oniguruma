@@ -33,3 +33,4 @@ git:
 branches:
   only:
     - master
+    - upstream-oniguruma-dev
